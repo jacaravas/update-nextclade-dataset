@@ -5,7 +5,7 @@ The code was re-wrapped to be consistent with the existing "prepare_nextclade" r
 ### Usage:
 ```
 update_nextclade_datasets.sh -n [dataset] -o [output directory]
-  -n  Name of dataset (exampe: sars-cov-2)
+  -n  Name of dataset (example: sars-cov-2)
   -o  Path to output files
 ```
 
