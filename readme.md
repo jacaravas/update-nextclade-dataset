@@ -1,6 +1,6 @@
 This is a quick re-tasking of an existing workflow to identify and download the nextclade dataset for sars-cov-2.  This allows users to update their datasets without using the "nextclade datasets get" command, bypassing certificate errors in environments behind a proxy.
 
-The code was re-wrapped to be consistent with the existing "prepare_nextclade" rule in nextstrain, but it can also be used outside of the Nextstrain workflow.
+The code was re-wrapped to be consistent with the existing "prepare_nextclade" rule in Nextstrain, but it can also be used outside of the Nextstrain workflow.
 
 ### Usage:
 ```
