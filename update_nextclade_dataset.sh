@@ -30,8 +30,8 @@ function fatal_error () {
 }
 
 STAGE="DOWNLOAD INDEX"
-## To specify a certificate file, you can alter this command to "file_base_url=$(curl -v --cacert <CERTIFICATE FILE> $index_url | zcat | workflow/snakemake_rules/parse_index.py --name $name)"
-file_base_url=$(curl -v $index_url | zcat | workflow/snakemake_rules/parse_index.py --name $name)
+## To specify a certificate file, you can alter this command to "file_base_url=$(curl --cacert <CERTIFICATE FILE> $index_url | zcat | workflow/snakemake_rules/parse_index.py --name $name)"
+file_base_url=$(curl $index_url | zcat | workflow/snakemake_rules/parse_index.py --name $name)
 check_status
 echo "Base URL = $file_base_url"
 
