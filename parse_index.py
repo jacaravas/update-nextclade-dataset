@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-### Written by Jason Caravas, mqi4 
+### Written by Jason Caravas
 ### Identify most recent sars-cov-2 build
 
 import os, sys, re, json, argparse
