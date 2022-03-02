@@ -2,14 +2,14 @@ This is a quick re-tasking of an existing workflow to identify and download the 
 
 The code was re-wrapped to be consistent with the existing "prepare_nextclade" rule in nextstrain, but it can also be used outside of the Nextstrain workflow.
 
-#Usage:
+# Usage:
 ```
 update_nextclade_datasets.sh -n [dataset] -o [output directory]
   -n  Name of dataset (exampe: sars-cov-2)
   -o  Path to output files
 ```
 
-Example custom rule to replace "prepare_datasets" command in nextstrain main_workflw.smk
+# Example custom rule to replace "prepare_datasets" command in nextstrain main_workflw.smk
 ```rule custom_prepare_nextclade:
     message:
         """
